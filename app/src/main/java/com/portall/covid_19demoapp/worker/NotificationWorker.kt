@@ -41,7 +41,7 @@ class NotificationWorker(
         val defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
         val notificationBuilder = NotificationCompat.Builder(context, channelId)
             .setColor(ContextCompat.getColor(context, android.R.color.holo_red_dark))
-            .setSmallIcon(R.drawable.ic_stat_notification_icon)
+            .setSmallIcon(R.drawable.ic_notifications_active_black_24dp)
             .setContentTitle(context.getString(R.string.notification_title))
             .setContentText(context.getString(R.string.notification_message, totalCount))
             .setAutoCancel(true)

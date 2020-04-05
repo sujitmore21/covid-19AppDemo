@@ -1,7 +1,6 @@
 package com.portall.covid_19demoapp.repository
 
 import androidx.annotation.MainThread
-import com.portall.covid_19demoapp.utils.State
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flow
 import retrofit2.Response
